@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(176, 9%, 66%);
+}
+
+.main {
+    margin: 20px auto;
+    max-width: 550px;
+    border-radius: 10px;
+}
+
+.top-section,
+.bottom-section {
+    padding: 15px 10px;
+}
+
+.top-section {
+    background-color: #ffffff;
+}
+
+.bottom-section {
+    display: flex;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.subscription-section,
+.why-us--section {
+    width: 50%;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.cta {
+    width: 70%;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    background-color: hsl(71, 73%, 54%);
+}
+
+.bottom-section_heading {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.gray-text {
+    color: hsl(204, 43%, 93%);
+}
+
+.money-back--text {
+    color: hsl(71, 73%, 54%);
+}
